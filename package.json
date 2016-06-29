@@ -1,0 +1,32 @@
+{
+  "name": "cv-template",
+  "version": "1.0.0",
+  "description": "HTML CV Template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antontemchenko/cv-template.git"
+  },
+  "keywords": [
+    "cv",
+    "template"
+  ],
+  "author": "Anton Temchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antontemchenko/cv-template/issues"
+  },
+  "homepage": "https://github.com/antontemchenko/cv-template#readme",
+  "dependencies": {
+    "angular": "^1.5.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-serve": "^1.2.0"
+  }
+}

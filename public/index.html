@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV Template</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body ng-app="cvApp" ng-controller="cvCtrl as cv">
+        <h1>{{cv.name}}</h1>
+        <div ng-cv="cv.options"></div>
+        <script src="../node_modules/angular/angular.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
