@@ -1,2 +1,2 @@
 # cv-template
-HTML CV Template
+Developer CV builder with AngularJS, HTML, CSS 

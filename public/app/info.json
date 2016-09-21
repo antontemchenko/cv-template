@@ -1,0 +1,30 @@
+{
+    "personal": {
+        "firstName": "Anton",
+        "secondName": "Temchenko",
+        "position": "Front End Developer",
+        "birthDate": "23-07-1992",
+        "sex": "male",
+        "maritalStatus": "Married"
+    },
+    "contact": {
+        "email": "anton@temchenko.com.ua",
+        "phone": "+48535046041",
+        "website": "http://anton.temchenko.com.ua",
+        "blog": ""
+    },
+    "education": [],
+    "experience": [],
+    "skills": [],
+    "summary": "",
+    "additional": {
+        "languages": [
+            {"name": "English", "level": 8}
+        ],
+        "volunteering": [],
+        "interests": ["basketball"],
+        "other": [
+            {"name": "Drive license", "data": "Category B"}
+        ]
+    }
+}

@@ -15,7 +15,7 @@
     "template"
   ],
   "author": "Anton Temchenko",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/antontemchenko/cv-template/issues"
   },
@@ -24,6 +24,7 @@
     "angular": "^1.5.7"
   },
   "devDependencies": {
+    "angular-translate": "^2.12.1",
     "browser-sync": "^2.13.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
