@@ -1,7 +1,7 @@
 {
     "personal": {
         "firstName": "Anton",
-        "secondName": "Temchenko",
+        "lastName": "Temchenko",
         "position": "Front End Developer",
         "birthDate": "23-07-1992",
         "sex": "male",
@@ -16,7 +16,7 @@
     "education": [],
     "experience": [],
     "skills": [],
-    "summary": "",
+    "summary": "Front End developer with two years' experience of creating web-applications",
     "additional": {
         "languages": [
             {"name": "English", "level": 8}

@@ -1,10 +1,13 @@
 angular.module('cvApp')
-    .directive('ngCv', [function(){
+    .directive('ngCv', ['info', 'config', function(info, config){
+        var template = config.template;
         return {
             restrict: 'EA',
-            template: 'cv.html',
+            templateUrl: 'app/templates/'+template+'.html',
             link: function(scope, elem, attrs){
-
+                info.success(function(data){
+                    scope.info = data;
+                })
             }
         }
     }]);

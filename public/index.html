@@ -1,39 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>CV Template</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body ng-app="cvApp" ng-controller="cvCtrl as cv">
-        <h1>{{cv.name}}</h1>
-        <div ng-cv="cv.options"></div>
+    <body ng-app="cvApp">
+        <div ng-cv></div>
         <script src="../node_modules/angular/angular.min.js"></script>
+        <script src="../node_modules/angular-translate/dist/angular-translate.min.js"></script>
         <script src="app/app.js"></script>
+        <script src="app/config.js"></script>
+        <script src="app/services/info.service.js"></script>
+        <script src="app/directives/ngCv.directive.js"></script>
     </body>
-</html>
-
-<!doctype HTML>
-<html>
-<head>
-    <style>
-
-    </style>
-</head>
-<body>
-<div class="cv-container">
-    <div class="block">
-        <h2>ANTON TEMCHENKO</h2>
-        <div class="text-container">
-            al.Jana Pawła II 26, Warsaw 00-133 | +48535046041 | anton@temchenko.com.ua
-            anton.temchenko.com.ua
-        </div>
-    </div>
-    <div class="block">
-        <h2>Profile</h2>
-        <div class="text-container">
-            Front End developer with two years' experience of creating web-applications
-        </div>
-    </div>
-</div>
-</body>
 </html>
