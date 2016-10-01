@@ -10,12 +10,38 @@
     "contact": {
         "email": "anton@temchenko.com.ua",
         "phone": "+48535046041",
-        "website": "http://anton.temchenko.com.ua",
-        "blog": ""
+        "website": "anton.temchenko.com.ua",
+        "address": "al.Jana Pawła II 26, Warsaw 00-133"
     },
     "education": [],
     "experience": [],
-    "skills": [],
+    "skills": [
+        {"name": "JavaScript", "level": 8},
+        {"name": "AngularJS", "level": 7},
+        {"name": "jQuery", "level": 8},
+        {"name": "HTML5", "level": 8},
+        {"name": "CSS3", "level": 9},
+        {"name": "Sass", "level": 7},
+        {"name": "RWD", "level": 8},
+        {"name": "Gulp", "level": 5},
+        {"name": "Grunt", "level": 3},
+        {"name": "Git", "level": 8},
+        {"name": "CVS", "level": 5},
+        {"name": "Subversion", "level": 5},
+        {"name": "Bootstrap", "level": 8},
+        {"name": "Lodash", "level": 5},
+        {"name": "RequireJS", "level": 2},
+        {"name": "Node.js", "level": 4},
+        {"name": "ES6", "level": 3},
+        {"name": "ReactJS", "level": 2},
+        {"name": "Angular 2", "level": 1},
+        {"name": "Photoshop", "level": 7},
+        {"name": "Material Design", "level": 6},
+        {"name": "SEO", "level": 4},
+        {"name": "Wordpress", "level": 4},
+        {"name": "Joomla", "level": 4},
+        {"name": "C++", "level": 5}
+    ],
     "summary": "Front End developer with two years' experience of creating web-applications",
     "additional": {
         "languages": [

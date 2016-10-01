@@ -11,7 +11,7 @@
         "email": "anton@temchenko.com.ua",
         "phone": "+48535046041",
         "website": "http://anton.temchenko.com.ua",
-        "blog": ""
+        "address": "al.Jana Pawła II 26, Warsaw 00-133"
     },
     "education": [],
     "experience": [],
@@ -24,7 +24,7 @@
         "volunteering": [],
         "interests": ["basketball"],
         "other": [
-            {"name": "Drive license", "data": "Category B"}
+            {"name": "Drive license", "data": "Cat. B"}
         ]
     }
 }

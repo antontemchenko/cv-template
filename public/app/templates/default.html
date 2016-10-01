@@ -1,2 +1,21 @@
-{{'name' | translate}}: {{info.personal.firstName}}
-{{'surname' | translate}}: {{info.personal.lastName}}
+<div class="default">
+    <div class="block">
+        <h1 class="name">{{info.personal.firstName}} {{info.personal.lastName}}</h1>
+        <div class="contact">
+            <span class="contact-item">{{info.contact.address}}</span> |
+            <span class="contact-item">{{info.contact.phone}}</span> |
+            <span class="contact-item">{{info.contact.email}}</span>
+        </div>
+        <div class="contact"><a class="link" ng-href="{{'http://'+info.contact.website}}" target="_blank">{{info.contact.website}}</a></div>
+    </div>
+    <div class="default-block">
+        <h2>{{ 'profile' | translate }}</h2>
+        <p>{{info.summary}}</p>
+    </div>
+    <div class="default-block">
+        <h2>{{ 'technicalSkills' | translate }}</h2>
+        <ul class="skills">
+            <li ng-attr-title="{{skill.level}} / 10" ng-repeat="skill in info.skills" class="skill" ng-class="getSkillClass(skill)">{{skill.name}}</li>
+        </ul>
+    </div>
+</div>

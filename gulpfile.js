@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var serve = require('gulp-serve');
 var sass = require('gulp-sass');
-var browserSync = require('browser-sync').create();
+// var browserSync = require('browser-sync').create();
 
 gulp.task('sass', function () {
     return gulp.src('assets/sass/**/*.scss')
@@ -13,13 +13,13 @@ gulp.task('sass:watch', function () {
     gulp.watch('assets/sass/**/*.scss', ['sass']);
 });
 
-gulp.task('browserSync', function(){
-    browserSync.init({
-        server: {
-            baseDir: "public"
-        }
-    });
-});
+// gulp.task('browserSync', function(){
+//     browserSync.init({
+//         server: {
+//             baseDir: "public"
+//         }
+//     });
+// });
 
 gulp.task('serve', function(){
     serve('public');

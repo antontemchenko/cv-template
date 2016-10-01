@@ -1,15 +1,18 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin-ext';
+
 html {
   background: #ddd;
+  font-family: 'Lato', sans-serif;
 }
 body {
   width: 210mm;
   height: 297mm;
   margin: 0 auto;
   background: #fff;
+  font-family: 'Lato', sans-serif;body {
+  font-size: 16px;
+}
 }
 .cv-container {
   padding: 5mm 15mm;
-}
-.block {
-
 }

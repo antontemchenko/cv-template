@@ -1,6 +1,6 @@
 angular.module('cvApp')
     .constant('config', {
-        'template': 'material',
+        'template': 'default',
         'lang': 'en'
     })
     .config(['$translateProvider', 'config', function ($translateProvider, config) {
@@ -13,7 +13,13 @@ angular.module('cvApp')
 
 var en = {
     'name': 'Name',
-    'surname': 'Surname'
+    'surname': 'Surname',
+    'profile': 'Profile',
+    'technicalSkills': 'Technical Skills',
+    'workExperience': 'Work Experience',
+    'education': 'Education',
+    'addInfo': 'Additional Information',
+    'langSkills': 'Language Skills'
 };
 
 var pl = {
