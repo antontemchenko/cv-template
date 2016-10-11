@@ -14,7 +14,15 @@ angular.module('cvApp')
                     };
                     $timeout(function(){
                         compiled = true;
-                    })
+                    });
+                    scope.nestedSkills = (function(list, cols){
+                        var newList = [];
+                        for(var i = 0; i<= list.length; i+=cols){
+                            newList.push(list.slice(i, i+cols));
+                        }
+                        console.log(newList);
+                        return newList;
+                    })(data.skills, 4);
                 })
             }
         }

@@ -8,14 +8,35 @@
         </div>
         <div class="contact"><a class="link" ng-href="{{'http://'+info.contact.website}}" target="_blank">{{info.contact.website}}</a></div>
     </div>
-    <div class="default-block">
+    <div class="block">
         <h2>{{ 'profile' | translate }}</h2>
         <p>{{info.summary}}</p>
     </div>
-    <div class="default-block">
+    <div class="block">
         <h2>{{ 'technicalSkills' | translate }}</h2>
-        <ul class="skills">
-            <li ng-attr-title="{{skill.level}} / 10" ng-repeat="skill in info.skills" class="skill" ng-class="getSkillClass(skill)">{{skill.name}}</li>
+        <ul class="skills" ng-repeat="skills in nestedSkills">
+            <li ng-attr-title="{{skill.level}} / 10" ng-repeat="skill in skills" class="skill" ng-class="getSkillClass(skill)">{{skill.name}}</li>
+        </ul>
+    </div>
+    <div class="block">
+        <h2>{{ 'workExperience' | translate }}</h2>
+        <ul class="experience">
+            <li class="job" ng-repeat="job in info.experience">
+                <div class="time">{{job.from}} - {{ job.to}}</div>
+                <div class="job-title">{{job.title}}</div>
+                <div class="job-company">{{job.company}}</div>
+                <div class="job-description">{{job.description}}</div>
+            </li>
+        </ul>
+    </div>
+    <div class="block">
+        <h2>{{ 'education' | translate }}</h2>
+        <ul class="education">
+            <li class="school" ng-repeat="school in info.education">
+                <div class="time">{{school.from}} - {{ school.to}}</div>
+                <div class="degree">{{school.degree}}</div>
+                <div class="school-name">{{school.name}}</div>
+            </li>
         </ul>
     </div>
 </div>

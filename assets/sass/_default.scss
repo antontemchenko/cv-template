@@ -1,69 +1,149 @@
-
-.skills {
-  list-style: none;
-  padding: 0;
-
-  .skill {
+.default {
+  .skills {
+    list-style: none;
+    padding: 0;
     display: inline-block;
-    margin: 2px 5px;
-    padding: 5px;
-    position: relative;
+    width: 16%;
+    margin: 0;
+    vertical-align: top;
 
-    &::before, &::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      height: 3px;
-      width: 0;
+    .skill {
+      margin: 2px 5px;
+      padding: 10px 5px;
+      position: relative;
+      transition: 0.3s ease-out;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      &::before, &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        width: 0;
+      }
+      &::before {
+        z-index: 2;
+        background: #ddd;
+        width: 100%;
+      }
+      &::after {
+        background: #777;
+        z-index: 3;
+        transition: 1s ease-out;
+        transform: scaleX(0);
+        transform-origin: left;
+      }
+
+      &.w-1::after {
+        width: 10%;
+      }
+      &.w-2::after {
+        width: 20%;
+      }
+      &.w-3::after {
+        width: 30%;
+      }
+      &.w-4::after {
+        width: 40%;
+      }
+      &.w-5::after {
+        width: 50%;
+      }
+      &.w-6::after {
+        width: 60%;
+      }
+      &.w-7::after {
+        width: 70%;
+      }
+      &.w-8::after {
+        width: 80%;
+      }
+      &.w-9::after {
+        width: 90%;
+      }
+      &.w-10::after {
+        width: 100%;
+      }
+
+      &.compiled::after {
+        transform: scaleX(1);
+      }
     }
-    &::before {
-      z-index: 2;
-      background: #ddd;
-      width: 100%;
+  }
+
+  .experience {
+    margin: 0;
+    padding: 0;
+
+    .job {
+      margin: 10px 0;
+      list-style: none;
+
+      .time {
+        display: inline-block;
+        width: 150px;
+      }
+      .job-title {
+        display: inline-block;
+        font-weight: bold;
+      }
+      .job-company {
+        display: inline-block;
+      }
+      .job-description {
+        margin-left: 155px;
+      }
+
     }
-    &::after {
-      background: #777;
-      z-index: 3;
-      transition: 1s ease-out;
-      transform: scaleX(0);
-      transform-origin: left;
+  }
+
+  .education {
+    margin: 0;
+    padding: 0;
+
+    .school {
+      margin: 10px 0;
+      list-style: none;
+
+      .time {
+        display: inline-block;
+        width: 150px;
+      }
+      .degree {
+        display: inline-block;
+        font-weight: bold;
+      }
+      .school-name {
+        margin-left: 155px;
+      }
+
+    }
+  }
+
+  .block {
+
+    .contact {
+      text-align: center;
+
+      .contact-item {
+        padding: 0 10px;
+      }
     }
 
-    &.w-1::after {
-      width: 10%;
-    }
-    &.w-2::after {
-      width: 20%;
-    }
-    &.w-3::after {
-      width: 30%;
-    }
-    &.w-4::after {
-      width: 40%;
-    }
-    &.w-5::after {
-      width: 50%;
-    }
-    &.w-6::after {
-      width: 60%;
-    }
-    &.w-7::after {
-      width: 70%;
-    }
-    &.w-8::after {
-      width: 80%;
-    }
-    &.w-9::after {
-      width: 90%;
-    }
-    &.w-10::after {
-      width: 100%;
+    h1, h2 {
+      border-bottom: 2px solid #ccc;
+      font-weight: normal;
     }
 
-    &.compiled::after {
-      transform: scaleX(1);
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 5px;
     }
   }
 }
-
