@@ -2,20 +2,20 @@
   .skills {
     list-style: none;
     padding: 0;
-    display: inline-block;
-    width: 16%;
     margin: 0;
     vertical-align: top;
 
     .skill {
       margin: 2px 5px;
       padding: 10px 5px;
+      display: inline-block;
+      width: 13%;
       position: relative;
-      transition: 0.3s ease-out;
+      transition: 0.1s ease-out;
       cursor: pointer;
 
       &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
       }
 
       &::before, &::after {
@@ -148,6 +148,43 @@
         color: #777;
       }
 
+    }
+  }
+  .languages {
+    margin: 0;
+    padding: 0;
+
+    .lang {
+      list-style: none;
+      display: inline-block;
+      margin-right: 30px;
+
+      .lang-name {
+        //font-weight: bold;
+      }
+      .lang-level {
+        padding-left: 10px;
+        color: #777;
+      }
+
+    }
+  }
+
+  .hobbies {
+    list-style: none;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin-right: 5px;
+      text-transform: lowercase;
+
+      &:first-child {
+        text-transform: capitalize;
+      }
+
+      &:not(:last-child)::after{
+        content: ',';
+      }
     }
   }
 

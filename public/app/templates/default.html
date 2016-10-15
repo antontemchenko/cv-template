@@ -14,8 +14,8 @@
     </div>
     <div class="block">
         <h2>{{ 'technicalSkills' | translate }}</h2>
-        <ul class="skills" ng-repeat="skills in nestedSkills">
-            <li ng-attr-title="{{skill.level}} / 10" ng-repeat="skill in skills" class="skill" ng-class="getSkillClass(skill)">{{skill.name}}</li>
+        <ul class="skills" >
+            <li ng-repeat="skill in info.skills" ng-attr-title="{{skill.level}} / 10" class="skill" ng-class="getSkillClass(skill)">{{skill.name}}</li>
         </ul>
     </div>
     <div class="block">
@@ -50,23 +50,18 @@
         </ul>
     </div>
     <div class="block">
-        <h2>{{ 'volunteerExperience' | translate }}</h2>
-        <ul class="volunteer">
-            <li class="event" ng-repeat="event in info.volunteer">
-                <div class="time">{{event.date}}</div>
-                <div class="event-name">{{event.name}}</div>
-                <div class="event-description">{{event.description}}</div>
+        <h2>{{ 'langSkills' | translate }}</h2>
+        <ul class="languages">
+            <li class="lang" ng-repeat="lang in info.languages">
+                <span class="lang-name">{{lang.name}}</span>
+                <span class="lang-level">{{lang.level}}</span>
             </li>
         </ul>
     </div>
     <div class="block">
-        <h2>{{ 'volunteerExperience' | translate }}</h2>
-        <ul class="volunteer">
-            <li class="event" ng-repeat="event in info.volunteer">
-                <div class="time">{{event.date}}</div>
-                <div class="event-name">{{event.name}}</div>
-                <div class="event-description">{{event.description}}</div>
-            </li>
+        <h2>{{ 'hobbies' | translate }}</h2>
+        <ul class="hobbies">
+            <li ng-repeat="hobby in info.interests track by $index"> {{hobby}}</li>
         </ul>
     </div>
 </div>

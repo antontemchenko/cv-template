@@ -20,7 +20,8 @@ var en = {
     'education': 'Education',
     'volunteerExperience': 'Volunteer Experience',
     'addInfo': 'Additional Information',
-    'langSkills': 'Language Skills'
+    'langSkills': 'Language Skills',
+    'hobbies': 'Hobbies and interests'
 };
 
 var pl = {

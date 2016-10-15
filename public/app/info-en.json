@@ -37,8 +37,7 @@
         {"name": "SEO", "level": 4},
         {"name": "Wordpress", "level": 4},
         {"name": "Joomla", "level": 4},
-        {"name": "C++", "level": 5},
-        {"name": "Material Design", "level": 6}
+        {"name": "C++", "level": 4}
     ],
     "education": [
         {
@@ -88,16 +87,19 @@
     [
         {
             "date": "May 2016",
-            "name": "Front-Trends 2016 conference for front end developers",
+            "name": "Front-Trends 2016 conference (Warsaw)",
             "description": "Stage manager, registration desk, help organizers, sponsors, speakers and attendees"
         }
     ],
     "summary": "Front End developer with two years' experience of creating web-applications",
+    "languages": [
+        {"name": "English", "level": "B1"},
+        {"name": "Polish", "level": "C1"},
+        {"name": "Ukrainian", "level": "C2"},
+        {"name": "Russian", "level": "C2"}
+    ],
+    "interests": ["Coding", "Basketball", "Snowboarding", "Street biking", "Music"],
     "additional": {
-        "languages": [
-            {"name": "English", "level": 8}
-        ],
-        "interests": ["basketball"],
         "other": [
             {"name": "Drive license", "data": "Cat. B"}
         ]
