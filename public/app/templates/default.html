@@ -4,10 +4,10 @@
         <div class="contact">
             <span class="contact-item">{{info.contact.address}}</span> |
             <span class="contact-item">{{info.contact.phone}}</span> |
-            <span class="contact-item">{{info.contact.email}}</span>
+            <span class="contact-item">{{info.contact.email}}</span> |
+            <span class="contact-item"><a class="link" ng-href="{{'http://'+info.contact.website}}" target="_blank">{{info.contact.website}}</a></span>
         </div>
-        <div class="contact"><a class="link" ng-href="{{'http://'+info.contact.website}}" target="_blank">{{info.contact.website}}</a></div>
-    </div>
+            </div>
     <div class="block">
         <h2>{{ 'profile' | translate }}</h2>
         <p>{{info.summary}}</p>
@@ -36,6 +36,36 @@
                 <div class="time">{{school.from}} - {{ school.to}}</div>
                 <div class="degree">{{school.degree}}</div>
                 <div class="school-name">{{school.name}}</div>
+            </li>
+        </ul>
+    </div>
+    <div class="block">
+        <h2>{{ 'volunteerExperience' | translate }}</h2>
+        <ul class="volunteer">
+            <li class="event" ng-repeat="event in info.volunteer">
+                <div class="time">{{event.date}}</div>
+                <div class="event-name">{{event.name}}</div>
+                <div class="event-description">{{event.description}}</div>
+            </li>
+        </ul>
+    </div>
+    <div class="block">
+        <h2>{{ 'volunteerExperience' | translate }}</h2>
+        <ul class="volunteer">
+            <li class="event" ng-repeat="event in info.volunteer">
+                <div class="time">{{event.date}}</div>
+                <div class="event-name">{{event.name}}</div>
+                <div class="event-description">{{event.description}}</div>
+            </li>
+        </ul>
+    </div>
+    <div class="block">
+        <h2>{{ 'volunteerExperience' | translate }}</h2>
+        <ul class="volunteer">
+            <li class="event" ng-repeat="event in info.volunteer">
+                <div class="time">{{event.date}}</div>
+                <div class="event-name">{{event.name}}</div>
+                <div class="event-description">{{event.description}}</div>
             </li>
         </ul>
     </div>

@@ -97,6 +97,7 @@
       }
       .job-description {
         margin-left: 155px;
+        color: #777;
       }
 
     }
@@ -120,30 +121,64 @@
       }
       .school-name {
         margin-left: 155px;
+        color: #777;
+      }
+
+    }
+  }
+
+  .volunteer {
+    margin: 0;
+    padding: 0;
+
+    .event {
+      margin: 10px 0;
+      list-style: none;
+
+      .time {
+        display: inline-block;
+        width: 150px;
+      }
+      .event-name {
+        display: inline-block;
+        font-weight: bold;
+      }
+      .event-description {
+        margin-left: 155px;
+        color: #777;
       }
 
     }
   }
 
   .block {
+    page-break-inside: avoid;
 
     .contact {
       text-align: center;
 
       .contact-item {
-        padding: 0 10px;
+        padding: 0 8px;
+        font-size: 0.8rem;
       }
     }
 
     h1, h2 {
-      border-bottom: 2px solid #ccc;
-      font-weight: normal;
+      border-bottom: 1px solid #ccc;
+      font-weight: 300;
+      color: #319054;
+      font-size: 1.5rem;
     }
 
     h1 {
       text-align: center;
+      margin-bottom: 10px;
       text-transform: uppercase;
-      margin-bottom: 5px;
+      font-size: 1.6rem;
     }
+  }
+
+  a, a:visited, a:active, a:focus {
+    color: #319054;
   }
 }

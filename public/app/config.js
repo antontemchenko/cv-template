@@ -18,6 +18,7 @@ var en = {
     'technicalSkills': 'Technical Skills',
     'workExperience': 'Work Experience',
     'education': 'Education',
+    'volunteerExperience': 'Volunteer Experience',
     'addInfo': 'Additional Information',
     'langSkills': 'Language Skills'
 };

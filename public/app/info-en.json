@@ -13,50 +13,6 @@
         "website": "anton.temchenko.com.ua",
         "address": "al.Jana Pawła II 26, Warsaw 00-133"
     },
-    "education": [
-        {
-            "from": "2015",
-            "to": "present",
-            "degree": "(Bachelor of Computer Science)",
-            "name": "Warsaw School of Computer Science - Poland"
-        },
-        {
-            "from": "2009",
-            "to": "2014",
-            "degree": "Master of Fine Arts (Theatre)",
-            "name": "Kyiv National I. K. Karpenko-Kary Theatre, Cinema and Television University - Ukraine"
-        }
-    ],
-    "experience": [
-        {
-            "from": "06.2015",
-            "to": "present",
-            "company": "ComPan System sp. z o.o.",
-            "title": "Junior Front End developer",
-            "description": "Developing front-end for web-application with HTML5, CSS3, Javascript, AngularJS, jQuery, Lodash, Bootstrap, Sass, NPM, Bower, Grunt, Nginx, Subversion, Git"
-        },
-        {
-            "from": "08.2016",
-            "to": "10.2016",
-            "company": "To_Reforge",
-            "title": "Front End developer (Remote)",
-            "description": "Rewriting jQuery web-application for mobile devices to AngularJS"
-        },
-        {
-            "from": "12.2014",
-            "to": "07.2015",
-            "company": "Powered by Pace",
-            "title": "Junior Front End developer (Remote)",
-            "description": "Developing front-end for web-application with HTML, CSS, Angular"
-        },
-        {
-            "from": "05.2014",
-            "to": "12.2014",
-            "company": "self employed",
-            "title": "web developer",
-            "description": "Creating websites, landing pages from scratch and based on CMS Joomla, Wordpress"
-        }
-    ],
     "skills": [
         {"name": "JavaScript", "level": 7},
         {"name": "AngularJS", "level": 7},
@@ -84,12 +40,63 @@
         {"name": "C++", "level": 5},
         {"name": "Material Design", "level": 6}
     ],
+    "education": [
+        {
+            "from": "2015",
+            "to": "present",
+            "degree": "(Bachelor of Computer Science)",
+            "name": "Warsaw School of Computer Science - Poland"
+        },
+        {
+            "from": "2009",
+            "to": "2014",
+            "degree": "Master of Fine Arts (Theatre)",
+            "name": "Kyiv National I. K. Karpenko-Kary Theatre, Cinema and Television University - Ukraine"
+        }
+    ],
+    "experience": [
+        {
+            "from": "06.2015",
+            "to": "present",
+            "company": "ComPan System sp. z o.o.",
+            "title": "Junior Front End developer",
+            "description": "Creating new and improving/maintaining existing web-applications with HTML5, CSS3, Javascript, AngularJS, jQuery, Lodash, Bootstrap, Sass, Semantic, NPM, Bower, Gulp, Grunt, CVS, Git"
+        },
+        {
+            "from": "08.2016",
+            "to": "10.2016",
+            "company": "To_Reforge",
+            "title": "Front End developer (Remote)",
+            "description": "Rewriting jQuery web-application for mobile devices to AngularJS"
+        },
+        {
+            "from": "12.2014",
+            "to": "07.2015",
+            "company": "Powered by Pace",
+            "title": "Junior Front End developer (Remote)",
+            "description": "Developing front-end for web-application with HTML, CSS, AngularJS"
+        },
+        {
+            "from": "05.2014",
+            "to": "12.2014",
+            "company": "self employed",
+            "title": "Web Developer",
+            "description": "Creating websites, landing pages from scratch and based on CMS Joomla, Wordpress"
+        }
+    ],
+    "volunteer":
+    [
+        {
+            "date": "May 2016",
+            "name": "Front-Trends 2016 conference for front end developers",
+            "description": "Stage manager, registration desk, help organizers, sponsors, speakers and attendees"
+        }
+    ],
     "summary": "Front End developer with two years' experience of creating web-applications",
     "additional": {
         "languages": [
             {"name": "English", "level": 8}
         ],
-        "volunteering": [],
         "interests": ["basketball"],
         "other": [
             {"name": "Drive license", "data": "Cat. B"}
