@@ -5,26 +5,104 @@
         "position": "Front End Developer",
         "birthDate": "23-07-1992",
         "sex": "male",
-        "maritalStatus": "Married"
+        "maritalStatus": "Żonaty"
     },
     "contact": {
         "email": "anton@temchenko.com.ua",
         "phone": "+48535046041",
-        "website": "http://anton.temchenko.com.ua",
+        "website": "anton.temchenko.com.ua",
         "address": "al.Jana Pawła II 26, Warsaw 00-133"
     },
-    "education": [],
-    "experience": [],
-    "skills": [],
-    "summary": "Front End developer with two years' experience of creating web-applications",
+    "skills": [
+        {"name": "JavaScript", "level": 7},
+        {"name": "AngularJS", "level": 7},
+        {"name": "jQuery", "level": 7},
+        {"name": "HTML5", "level": 8},
+        {"name": "CSS3", "level": 8},
+        {"name": "Sass", "level": 7},
+        {"name": "RWD", "level": 8},
+        {"name": "Gulp", "level": 6},
+        {"name": "Grunt", "level": 3},
+        {"name": "Git", "level": 7},
+        {"name": "CVS", "level": 5},
+        {"name": "Subversion", "level": 5},
+        {"name": "Bootstrap", "level": 7},
+        {"name": "Lodash", "level": 5},
+        {"name": "RequireJS", "level": 2},
+        {"name": "Node.js", "level": 4},
+        {"name": "ES6", "level": 2},
+        {"name": "ReactJS", "level": 2},
+        {"name": "Angular 2", "level": 1},
+        {"name": "Photoshop", "level": 7},
+        {"name": "SEO", "level": 4},
+        {"name": "Wordpress", "level": 4},
+        {"name": "Joomla", "level": 4},
+        {"name": "C++", "level": 4}
+    ],
+    "education": [
+        {
+            "from": "2015",
+            "to": "obecnie",
+            "degree": "Inżynieria oprogramowania",
+            "name": "Warszawska Wyższa Szkoła Informatyki"
+        },
+        {
+            "from": "2009",
+            "to": "2014",
+            "degree": "Magister Aktor",
+            "name": "Kyiv National I. K. Karpenko-Kary Theatre, Cinema and Television University - Ukraine"
+        }
+    ],
+    "experience": [
+        {
+            "from": "06.2015",
+            "to": "obecnie",
+            "company": "ComPan System sp. z o.o.",
+            "title": "Junior Front End Developer",
+            "description": "Tworzenie zagadnień frontendowych aplikacji webowych posługując się HTML5, CSS3, Javascript, AngularJS, jQuery, Lodash, Bootstrap, Sass, Semantic, NPM, Bower, Gulp, Grunt, CVS, Git"
+        },
+        {
+            "from": "08.2016",
+            "to": "10.2016",
+            "company": "To_Reforge",
+            "title": "Front End Developer (Zdalnie)",
+            "description": "Przepisanie aplikacji webowej dla urządzeń mobilnych z jQuery na AngularJS 1.5"
+        },
+        {
+            "from": "12.2014",
+            "to": "07.2015",
+            "company": "Powered by Pace",
+            "title": "Junior Front End Developer (Zdalnie)",
+            "description": "Tworzenie zagadnień frontendowych z pomocą HTML5, CSS3, AngularJS"
+        },
+        {
+            "from": "05.2014",
+            "to": "12.2014",
+            "company": "samozatrudniony",
+            "title": "Web Developer",
+            "description": "Tworzenie stron, sklepów internetowych, landing page w oparciu o CMS Joomla i Wordpress"
+        }
+    ],
+    "volunteer":
+    [
+        {
+            "date": "May 2016",
+            "name": "Konferencja Front-Trends 2016",
+            "description": "Stage manager, pomoc organizatoram, mówcom i uczęstnikom konferencji"
+        }
+    ],
+    "summary": "Front End Developer z dwuletnim doświadczeniem tworzenia aplikacji webowych",
+    "languages": [
+        {"name": "Polski", "level": "C1"},
+        {"name": "Angielski", "level": "B1"},
+        {"name": "Ukraiński", "level": "C2"},
+        {"name": "Rosyjski", "level": "C2"}
+    ],
+    "interests": ["Kodowanie", "Koszykówka", "Snowboarding", "Rower", "Muzyka"],
     "additional": {
-        "languages": [
-            {"name": "English", "level": 8}
-        ],
-        "volunteering": [],
-        "interests": ["basketball"],
         "other": [
-            {"name": "Drive license", "data": "Cat. B"}
+            {"name": "Prawo jazdy", "data": "Kat. B"}
         ]
-    }
+    },
+    "clause": "Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. z 2002r. Nr 101, poz. 926 ze zm.). "
 }

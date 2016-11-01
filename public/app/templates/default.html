@@ -15,7 +15,10 @@
     <div class="block">
         <h2>{{ 'technicalSkills' | translate }}</h2>
         <ul class="skills" >
-            <li ng-repeat="skill in info.skills" ng-attr-title="{{skill.level}} / 10" class="skill" ng-class="getSkillClass(skill)">{{skill.name}}</li>
+            <li ng-repeat="skill in info.skills" ng-attr-title="{{skill.level}} / 10" class="skill" ng-class="getSkillClass(skill)"><span>{{skill.name}}</span>
+                <div class="progress-bar-bg">&nbsp;</div><div class="progress-bar" ng-class="getSkillClass(skill)">&nbsp;</div>
+            </li>
+
         </ul>
     </div>
     <div class="block">
@@ -64,4 +67,5 @@
             <li ng-repeat="hobby in info.interests track by $index"> {{hobby}}</li>
         </ul>
     </div>
+    <div class="footer" ng-if="info.clause">{{info.clause}}</div>
 </div>

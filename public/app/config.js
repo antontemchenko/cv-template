@@ -1,7 +1,7 @@
 angular.module('cvApp')
     .constant('config', {
         'template': 'default',
-        'lang': 'en'
+        'lang': new URLSearchParams(window.location.search.slice(1)).get('lang') || 'en'
     })
     .config(['$translateProvider', 'config', function ($translateProvider, config) {
         $translateProvider.translations('en', en);
@@ -26,5 +26,13 @@ var en = {
 
 var pl = {
     'name': 'Imię',
-    'surname': 'Nazwisko'
+    'surname': 'Nazwisko',
+    'profile': 'Profil',
+    'technicalSkills': 'Umiejętności',
+    'workExperience': 'Doświadczenie zawodowe',
+    'education': 'Wykształcenie',
+    'volunteerExperience': 'Wolontariat',
+    'addInfo': 'Dodatkowe informacje',
+    'langSkills': 'Znajomość języków',
+    'hobbies': 'Zainteresowania'
 };

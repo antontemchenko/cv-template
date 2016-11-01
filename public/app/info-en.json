@@ -65,33 +65,33 @@
             "from": "08.2016",
             "to": "10.2016",
             "company": "To_Reforge",
-            "title": "Front End developer (Remote)",
+            "title": "Front End Developer (Remote)",
             "description": "Rewriting jQuery web-application for mobile devices to AngularJS"
         },
         {
             "from": "12.2014",
             "to": "07.2015",
             "company": "Powered by Pace",
-            "title": "Junior Front End developer (Remote)",
-            "description": "Developing front-end for web-application with HTML, CSS, AngularJS"
+            "title": "Junior Front End Developer (Remote)",
+            "description": "Developing front-end of the web-application with HTML, CSS, AngularJS"
         },
         {
             "from": "05.2014",
             "to": "12.2014",
             "company": "self employed",
             "title": "Web Developer",
-            "description": "Creating websites, landing pages from scratch and based on CMS Joomla, Wordpress"
+            "description": "Creating websites and landing pages from scratch and also based on CMS such as Joomla, Wordpress"
         }
     ],
     "volunteer":
     [
         {
             "date": "May 2016",
-            "name": "Front-Trends 2016 conference (Warsaw)",
-            "description": "Stage manager, registration desk, help organizers, sponsors, speakers and attendees"
+            "name": "'Front-Trends 2016' conference for professional front-end developers (Warsaw)",
+            "description": "Stage manager, registration desk, assisting organizers, sponsors, speakers and attendees"
         }
     ],
-    "summary": "Front End developer with two years' experience of creating web-applications",
+    "summary": "I am a Front End developer with two years' experience of creating web-applications. I am currently based in Warsaw but considering moving to London.",
     "languages": [
         {"name": "English", "level": "B1"},
         {"name": "Polish", "level": "C1"},
